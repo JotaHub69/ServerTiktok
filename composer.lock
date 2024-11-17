@@ -1,0 +1,200 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "44dd7c1c6c936fda80e8b5939299557b",
+    "packages": [
+        {
+            "name": "aternos/nbt",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aternosorg/php-nbt.git",
+                "reference": "862406eb4f137cca849fbf50feb20b1ad0b07a4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aternosorg/php-nbt/zipball/862406eb4f137cca849fbf50feb20b1ad0b07a4c",
+                "reference": "862406eb4f137cca849fbf50feb20b1ad0b07a4c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-zlib": "*",
+                "php": ">=8.1",
+                "php-64bit": "*",
+                "pocketmine/binaryutils": "^0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aternos\\Nbt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kurt Thiemann",
+                    "email": "kurt@aternos.org"
+                }
+            ],
+            "description": "PHP library to parse, modify, and create NBT objects",
+            "support": {
+                "issues": "https://github.com/aternosorg/php-nbt/issues",
+                "source": "https://github.com/aternosorg/php-nbt/tree/v1.12.0"
+            },
+            "time": "2024-08-13T15:32:37+00:00"
+        },
+        {
+            "name": "aternos/taskmaster",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aternosorg/taskmaster.git",
+                "reference": "aaeb0fe945fd2ca177998743880ed4928984c5fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aternosorg/taskmaster/zipball/aaeb0fe945fd2ca177998743880ed4928984c5fe",
+                "reference": "aaeb0fe945fd2ca177998743880ed4928984c5fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^1.2",
+                "phpunit/phpunit": "^10.4"
+            },
+            "suggest": {
+                "ext-parallel": "Required for thread workers",
+                "ext-pcntl": "Required for fork workers"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aternos\\Taskmaster\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Neid",
+                    "email": "matthias@aternos.org"
+                }
+            ],
+            "description": "Object-oriented PHP library for running tasks in parallel",
+            "support": {
+                "issues": "https://github.com/aternosorg/taskmaster/issues",
+                "source": "https://github.com/aternosorg/taskmaster/tree/v1.2.1"
+            },
+            "time": "2024-09-13T10:20:53+00:00"
+        },
+        {
+            "name": "aternos/thanos",
+            "version": "v0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aternosorg/thanos.git",
+                "reference": "13b76ed819d885397af1fc258a3daee803be7997"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aternosorg/thanos/zipball/13b76ed819d885397af1fc258a3daee803be7997",
+                "reference": "13b76ed819d885397af1fc258a3daee803be7997",
+                "shasum": ""
+            },
+            "require": {
+                "aternos/nbt": "^v1.9.0",
+                "aternos/taskmaster": "^1.1.3",
+                "ext-zlib": "*",
+                "php": ">=8.1"
+            },
+            "suggest": {
+                "ext-lz4": "Support for LZ4 compressed chunks (Minecraft 1.20.5+)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aternos\\Thanos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kurt Thiemann",
+                    "email": "kurt@aternos.org"
+                }
+            ],
+            "description": "Simple library to detect and remove unused chunks from a Minecraft world.",
+            "support": {
+                "issues": "https://github.com/aternosorg/thanos/issues",
+                "source": "https://github.com/aternosorg/thanos/tree/v0.11.0"
+            },
+            "time": "2024-09-27T10:37:57+00:00"
+        },
+        {
+            "name": "pocketmine/binaryutils",
+            "version": "0.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/BinaryUtils.git",
+                "reference": "ccfc1899b859d45814ea3592e20ebec4cb731c84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/ccfc1899b859d45814ea3592e20ebec4cb731c84",
+                "reference": "ccfc1899b859d45814ea3592e20ebec4cb731c84",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "~1.10.3",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.0.0",
+                "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Classes and methods for conveniently handling binary data",
+            "support": {
+                "issues": "https://github.com/pmmp/BinaryUtils/issues",
+                "source": "https://github.com/pmmp/BinaryUtils/tree/0.2.6"
+            },
+            "time": "2024-03-04T15:04:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

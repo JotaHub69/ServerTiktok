@@ -1,0 +1,91 @@
+[19:14:59] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at ahi.b(SourceFile:62) ~[server-1.20.1.jar:?]
+	at ahf.a(SourceFile:137) ~[server-1.20.1.jar:?]
+	at ahg.<init>(SourceFile:12) ~[server-1.20.1.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:115) ~[server-1.20.1.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:14:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:15:00] [ServerMain/INFO]: Loaded 7 recipes
+[19:15:00] [ServerMain/INFO]: Loaded 1271 advancements
+[19:15:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:15:01] [Server thread/INFO]: Loading properties
+[19:15:01] [Server thread/INFO]: Default game type: SURVIVAL
+[19:15:01] [Server thread/INFO]: Generating keypair
+[19:15:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:15:01] [Server thread/INFO]: Using epoll channel type
+[19:15:01] [Server thread/INFO]: Preparing level "world"
+[19:15:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:15:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:15:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:15:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:15:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:15:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:15:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:15:09] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[19:15:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[19:15:10] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:15:11] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[19:15:11] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:15:12] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[19:15:12] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[19:15:13] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[19:15:13] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[19:15:14] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[19:15:14] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[19:15:15] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[19:15:15] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[19:15:16] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[19:15:16] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[19:15:17] [Worker-Main-1/INFO]: Preparing spawn area: 21%
+[19:15:17] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[19:15:18] [Worker-Main-3/INFO]: Preparing spawn area: 24%
+[19:15:18] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[19:15:19] [Worker-Main-3/INFO]: Preparing spawn area: 28%
+[19:15:19] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[19:15:20] [Worker-Main-3/INFO]: Preparing spawn area: 32%
+[19:15:20] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[19:15:21] [Worker-Main-1/INFO]: Preparing spawn area: 37%
+[19:15:21] [Worker-Main-3/INFO]: Preparing spawn area: 40%
+[19:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[19:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[19:15:23] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[19:15:23] [Worker-Main-1/INFO]: Preparing spawn area: 50%
+[19:15:24] [Worker-Main-1/INFO]: Preparing spawn area: 53%
+[19:15:24] [Worker-Main-3/INFO]: Preparing spawn area: 55%
+[19:15:25] [Worker-Main-1/INFO]: Preparing spawn area: 57%
+[19:15:25] [Worker-Main-3/INFO]: Preparing spawn area: 60%
+[19:15:26] [Worker-Main-3/INFO]: Preparing spawn area: 63%
+[19:15:26] [Worker-Main-1/INFO]: Preparing spawn area: 66%
+[19:15:27] [Worker-Main-3/INFO]: Preparing spawn area: 68%
+[19:15:27] [Worker-Main-3/INFO]: Preparing spawn area: 70%
+[19:15:28] [Worker-Main-1/INFO]: Preparing spawn area: 73%
+[19:15:28] [Worker-Main-3/INFO]: Preparing spawn area: 76%
+[19:15:29] [Worker-Main-3/INFO]: Preparing spawn area: 78%
+[19:15:29] [Worker-Main-3/INFO]: Preparing spawn area: 82%
+[19:15:30] [Worker-Main-3/INFO]: Preparing spawn area: 84%
+[19:15:30] [Worker-Main-2/INFO]: Preparing spawn area: 86%
+[19:15:31] [Worker-Main-3/INFO]: Preparing spawn area: 89%
+[19:15:31] [Worker-Main-1/INFO]: Preparing spawn area: 92%
+[19:15:32] [Worker-Main-1/INFO]: Preparing spawn area: 96%
+[19:15:32] [Worker-Main-2/INFO]: Preparing spawn area: 99%
+[19:15:32] [Server thread/INFO]: Time elapsed: 26024 ms
+[19:15:32] [Server thread/INFO]: Done (31.314s)! For help, type "help"
+[19:20:04] [User Authenticator #1/INFO]: Disconnecting /127.48.232.73:37015: Failed to verify username!
+[19:20:04] [User Authenticator #1/ERROR]: Username 'Kinchis_XD' tried to join with an invalid session
+[19:20:04] [Server thread/INFO]: /127.48.232.73:37015 lost connection: Failed to verify username!
+[19:22:11] [User Authenticator #2/INFO]: Disconnecting /[0:0:0:0:0:0:0:1%0]:53552: Failed to verify username!
+[19:22:11] [User Authenticator #2/ERROR]: Username 'Kinchis_XD' tried to join with an invalid session
+[19:22:11] [Server thread/INFO]: /[0:0:0:0:0:0:0:1%0]:53552 lost connection: Failed to verify username!
+[19:22:16] [User Authenticator #3/INFO]: Disconnecting /[0:0:0:0:0:0:0:1%0]:53572: Failed to verify username!
+[19:22:16] [User Authenticator #3/ERROR]: Username 'Kinchis_XD' tried to join with an invalid session
+[19:22:16] [Server thread/INFO]: /[0:0:0:0:0:0:0:1%0]:53572 lost connection: Failed to verify username!
