@@ -89,3 +89,6 @@ java.nio.file.NoSuchFileException: server.properties
 [19:22:16] [User Authenticator #3/INFO]: Disconnecting /[0:0:0:0:0:0:0:1%0]:53572: Failed to verify username!
 [19:22:16] [User Authenticator #3/ERROR]: Username 'Kinchis_XD' tried to join with an invalid session
 [19:22:16] [Server thread/INFO]: /[0:0:0:0:0:0:0:1%0]:53572 lost connection: Failed to verify username!
+[19:30:27] [User Authenticator #4/INFO]: UUID of player FritzLaNutria is f651383f-875e-4249-929e-2fac3331f542
+[19:30:27] [Server thread/INFO]: FritzLaNutria[/127.48.232.73:42901] logged in with entity id 300 at (-25.5, 73.0, 22.5)
+[19:30:27] [Server thread/INFO]: FritzLaNutria joined the game
